@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho 2026 - Leite Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🐄 Agro Forte, Futuro Sustentável</h1>
+        <nav>
+            <button onclick="mudarPagina('manejo')">Simulador & Manejo</button>
+            <button onclick="mudarPagina('sobre-mim')">Sobre Mim</button>
+            <button onclick="mudarPagina('agrinho')">Sobre o Agrinho</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="manejo" class="pagina ativa">
+            <h2>Simulador de Ordenha</h2>
+            <p>Clique no botão para ordenhar a vaca. Lembre-se: vacas felizes e bem cuidadas produzem mais leite!</p>
+            
+            <div class="simulador-container">
+                <div class="vaca-img">🐄</div>
+                <button id="btn-ordenhar" onclick="tirarLeite()">Tirar Leite</button>
+                <div class="balde-container">
+                    <div id="leite-nivel"></div>
+                </div>
+                <p id="mensagem-simulador">Balde vazio. Comece a ordenha!</p>
+            </div>
+
+            <hr>
+
+            <h2>Guia do Produtor Sustentável</h2>
+            
+            <div class="cards-container">
+                <div class="card">
+                    <h3>📈 O que aumenta a produção?</h3>
+                    <ul>
+                        <li>Nutrição balanceada e água limpa à vontade.</li>
+                        <li>Conforto térmico (sombra e ventilação).</li>
+                        <li>Genética de qualidade e manejo sanitário rigoroso.</li>
+                        <li>Rotina tranquila e sem estresse durante a ordenha.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>📉 O que diminui a produção?</h3>
+                    <ul>
+                        <li>Estresse térmico (muito calor sem sombra).</li>
+                        <li>Doenças (como mastite, que inflama o úbere).</li>
+                        <li>Falta de água e pastagem de má qualidade.</li>
+                        <li>Tratamento agressivo ou barulhos muito altos.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🌱 Como deve estar o pasto?</h3>
+                    <p>O pasto precisa de <strong>manejo rotacionado</strong>, ou seja, dividir o pasto em piquetes para que o capim tenha tempo de crescer de novo. Ele deve estar na altura correta (dependendo do tipo de capim), bem adubado, sem plantas tóxicas e proteger o solo contra erosão, mantendo o equilíbrio ambiental.</p>
+                </div>
+
+                <div class="card">
+                    <h3>🩺 Saúde e Cuidados Gerais</h3>
+                    <p>É vital manter as vacinas em dia (como Febre Aftosa e Brucelose). Fazer o controle de carrapatos e vermes e ter acompanhamento veterinário frequente.</p>
+                </div>
+
+                <div class="card">
+                    <h3>🍼 Idade para apartar os bezerros</h3>
+                    <p>No gado de corte ou sistemas mais extensivos, o desmame ocorre entre <strong>6 e 8 meses</strong>. Em fazendas de leite com alta tecnologia, o bezerro pode ser separado logo nos primeiros dias para receber o colostro e depois ir para um bezerreiro com aleitamento artificial, protegendo a saúde dele e otimizando a produção, sempre respeitando o bem-estar animal.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mim" class="pagina">
+            <h2>Sobre Mim</h2>
+            <div class="conteudo-centralizado">
+                <p>Olá! meu nome é Kelvin kauã, sou aluno do 3º ano do ensino médio e criei este projeto para o concurso Agrinho 2026.</p>
+                <p>Acredito que o futuro do agronegócio depende do equilíbrio entre produzir alimentos de qualidade e preservar o meio ambiente para as futuras gerações. A tecnologia e a educação são as nossas melhores ferramentas para isso!</p>
+                </div>
+        </section>
+
+        <section id="agrinho" class="pagina">
+            <h2>Concurso Agrinho 2026</h2>
+            <div class="conteudo-centralizado">
+                <h3>Tema: Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</h3>
+                <p>O Programa Agrinho é uma iniciativa fantástica que leva educação, cidadania e consciência ambiental para as escolas. O objetivo deste ano é mostrar como as práticas agrícolas podem ser fortes e produtivas, sem deixar de lado a responsabilidade com a nossa natureza.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
