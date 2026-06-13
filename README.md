@@ -10,9 +10,9 @@ O site foi construído utilizando o conceito de **SPA (Single Page Application)*
 
 Para rodar o site no seu computador, siga os passos abaixo:
 
-1. Baixe todos os arquivos do repositório (`index.html`, `style.css`, `script.js` e `agrinho-logo.jpg`) e coloque-os na **mesma pasta**.
+1. Baixe todos os arquivos do repositório (`index.html`, `style.css` e `script.js`) e coloque-os na **mesma pasta**.
 2. Dê dois cliques no arquivo `index.html`.
-3. O site abrirá automaticamente no seu navegador de internet (Chrom e `script.js
+3. O site abrirá automaticamente no seu navegador de internet (Chrome, Edge, Firefox, etc.).
 
 ---
 
@@ -32,7 +32,7 @@ O site é dividido em 3 seções principais que podem ser acessadas pelo menu de
   * A idade correta e manejos para apartar os bezerros de forma humanizada.
 
 ### 2. Sobre Mim
-* Esta seção apresenta o autor do projeto (aluno do 3º ano do Ensino Médio) e as motivações por trás da escolha do tema e o uso da tecnologia no campo.
+* Esta seção apresenta o autor do projeto: **Kelvin Kauã** (aluno do 3º ano do Ensino Médio) e as motivações por trás da escolha do tema e o uso da tecnologia no campo.
 
 ### 3. Sobre o Concurso Agrinho
 * Explica a importância do programa Agrinho e exibe a imagem oficial estilizada do projeto com os personagens e o tema de 2026.
